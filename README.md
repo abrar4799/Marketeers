@@ -25,5 +25,5 @@ Junior Full-Stack Developer Position Task.
 - create user marketeersuser with password '123';
 - grant all privileges on database marketeers to marketeersuser;
 - \q
-- psql -h localhost -U clinicuser clinic
+- psql -h localhost -U marketeersuser marketeers
 
