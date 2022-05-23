@@ -4,6 +4,7 @@ import './App.css';
 import Home from './Pages/Home';
 import Login from './Pages/Login'
 
+
 function App() {
   const addLog = async newLog =>{
     
@@ -18,11 +19,13 @@ function App() {
   }
   return (
     <div className="App">
+       <br/>
+
+      <img src={require('./assets/logo.png')}/>
       
-     <h1> Marketeers Research </h1>
       <br></br>
       {/*<Login  addLog={addLog}/>*/}
-     
+       <br/>
       <Routes>
           <Route path='/' element={<Login  addLog={addLog} />}/>
           <Route path='home' element={<Home />} />
